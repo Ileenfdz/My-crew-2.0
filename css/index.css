@@ -8,19 +8,13 @@
 	border: none;
 	outline: none;
 }
-<<<<<<< HEAD
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size:24px;
+	background-color: #CCBFDD;
 }
 h2{
     color:#ffffff;
 }
-=======
-
-body {
-	background-color: #CCBFDD;
-	font-family: 'Roboto', sans-serif;
-}
->>>>>>> aa54cd6152dc6115152d75c99503e21e132559e0

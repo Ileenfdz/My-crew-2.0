@@ -6,14 +6,14 @@ header{
 .header{
     float: left;
     width: 350px;
-    text-align: center;
+    
  
 }
 .logotype{
     width: 76px;
     height: 53px;
     background-color: #F0D553;
-margin: 0 50%;
+    
 }
 .slogan{
     font-size: 24px;
