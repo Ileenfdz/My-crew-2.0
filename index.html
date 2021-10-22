@@ -1,72 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My crew</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="js/script.js"></script>
 </head>
+
 <body>
-    <header>
-        
-        <div class="header">
-            <img class="logotype" src="./images/header-img/logo2 1.png" alt="logotipo">
-            <h2 class="slogan">Papayeando</h2>
-        </div>
-        
-        <h1>Minions es más</h1>
+    <div class="general">
 
-    </header>
+        <header>
 
-    <main>
+            <div class="header left-column">
+                <img class="logotype" src="./images/header-img/logotype.png" alt="Logotipo">
+                <h2 class="slogan">PAPAYEANDO</h2>
+            </div>
 
-        <!--selctions teams start-->
-        <section class="team">
-            <article>
-                <img src="images/pfp/mary.png" alt="foto de Mary">
-                <div class="headers_team"><!--div headers h2 h3-->
-                    <h2>Vivi</h2>
-                    <h3 class="mary">Viajera emprendedora</h3>
-                </div>
-            </article>
-            <article>
-                <img src="images/pfp/ileen.png" alt="foto de Ileen">
-                <div class="headers_team"><!--div headers h2 h3-->
-                    <h2>Ileen</h2>
-                    <h3 class="ileen">Amante fresil</h3>
-                </div>
-            </article>
-            <article>
-                <img src="images/pfp/jorgeB.png" alt="foto de Jorge">
-                <div class="headers_team"><!--div headers h2 h3-->
-                    <h2>Jorge</h2>
-                    <h3 class="jorge">Adicto a los sugus</h3>
-                </div>
-            </article>
-            <article>
-            
-                <img src="images/pfp/raul.png" alt="foto de Raúl">
-                <div class="headers_team"><!--div headers h2 h3-->
-                    <h2>Raúl</h2>
-                    <h3 class="raul">Presunto vagabundo</h3>
-                </div>
-            </article>
-        </section>
-        
-        <div class="toolbox">
-            <a href="https://www.figma.com" target="_blank"><img src="./images/footer-images/figma_icon.png" alt="Figma" class="icon"></a>
-            <a href="https://github.com/" target="_blank"><img src="./images/footer-images/github_icon.png" alt="GitHub" class="icon"></a>
-            <a href="https://app.gitkraken.com" target="_blank"><img src="./images/footer-images/gitkraken_icon.png" alt="GitKraken" class="icon"></a>
-            <a href="https://slack.com" target="_blank"><img src="./images/footer-images/slack_icon.png" alt="Slack" class="icon"></a>
-            <a href="https://code.visualstudio.com/" target="_blank"><img src="./images/footer-images/vsc_icon.png" alt="Visual Code Studio" class="icon"></a>
-        </div>
-        
-    </main>
+            <div class="right-column">
+                <h1>Minions es más</h1>
+            </div>
 
-    <footer>
-        <p>Minions Es Más© property of FF5 solutions© SRL.</p>
-    </footer>
-    
+        </header>
+
+        <main>
+            <section class="container">
+
+                <div class="extra left-column">
+                    <h2>ESTADO DE ANIMO</h2>
+
+                    <div>
+                        <img id="minion1" src="images/extra-img/minion-1.png " alt="Minion feliz"
+                            onclick="minionChange('minion1')">
+                        <img id="minion2" src="images/extra-img/minion-2.png" alt="Minion serio"
+                            onclick="minionChange('minion2')">
+                    </div>
+                </div>
+
+                <div class="team right-column">
+                    <article>
+                        <img src="images/pfp-img/mary.png" alt="Foto de Mary">
+
+                        <div>
+                            <h2>Mary</h2>
+                            <h3>Viajera emprendedora</h3>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="images/pfp-img/ileen.png" alt="Foto de Ileen">
+
+                        <div>
+                            <h2>Ileen</h2>
+                            <h3>Amante fresil</h3>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="images/pfp-img/jorgeB.png" alt="Foto de Jorge">
+
+                        <div>
+                            <h2>Jorge</h2>
+                            <h3>Adicto a los sugus</h3>
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="images/pfp-img/raul.png" alt="Foto de Raúl">
+
+                        <div>
+                            <h2>Raúl</h2>
+                            <h3>Presunto vagabundo</h3>
+                        </div>
+                    </article>
+
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+
+            <div class="toolbox">
+                <a href="https://www.figma.com" target="_blank"><img src="./images/footer-img/figma_icon.png"
+                        alt="Figma" class="icon"></a>
+                <a href="https://github.com/" target="_blank"><img src="./images/footer-img/github_icon.png"
+                        alt="GitHub" class="icon"></a>
+                <a href="https://app.gitkraken.com" target="_blank"><img src="./images/footer-img/gitkraken_icon.png"
+                        alt="GitKraken" class="icon"></a>
+                <a href="https://slack.com" target="_blank"><img src="./images/footer-img/slack_icon.png" alt="Slack"
+                        class="icon"></a>
+                <a href="https://code.visualstudio.com/" target="_blank"><img src="./images/footer-img/vsc_icon.png"
+                        alt="Visual Code Studio" class="icon"></a>
+            </div>
+
+            <p>Minions Es Más© property of FF5 solutions© SRL.</p>
+
+        </footer>
+    </div>
 </body>
+
 </html>

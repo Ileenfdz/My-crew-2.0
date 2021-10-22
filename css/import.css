@@ -1,5 +1,5 @@
 @import "./header_styles/header.css";
 @import "./article_styles/article.css";
-@import "./div_styles/div.css";
 @import "./footer_styles/footer.css";
+@import "./extra_styles/extra.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&display=swap');

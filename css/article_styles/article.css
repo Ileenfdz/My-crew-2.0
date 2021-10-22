@@ -1,9 +1,7 @@
-.team {
-    width:600px;
-    margin:auto;
-    min-height: 606px;
+.team {   
+    margin: auto;
+    min-height: 445px;
 }
-
 article {
     width:150px;
     height: 200px;
@@ -14,39 +12,28 @@ article {
     min-width: 0;
     margin:1% 12%;
 }
-
 article img {
     margin:auto;
     border-radius:50%; width:125px; height:125px;
     box-shadow: 15px 1px 0px rgba(207, 178, 37, 0.7) ;
 }
-
-.headers_team {
+.team div {
     background-color:#38639A ;
     width:150px;
     margin: auto;
     padding:0.5% 0.5em;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
-
 .team h2 {
     text-align: center;
     margin: 0;
     display: block;
     font-size: 16pt;
+    color: #ffffff;
 }
-
 .team h3 {
     color:#ffffff;
     text-align: center;
     padding: 0;
-}
-
-.ileen,.jorge,.mary {
     font-size: 11pt;
-
-}
-
-.raul{
-    font-size: 12pt;
 }
